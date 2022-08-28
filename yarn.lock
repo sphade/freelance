@@ -348,6 +348,11 @@
   "resolved" "https://registry.npmjs.org/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz"
   "version" "0.3.0"
 
+"@heroicons/react@^2.0.8":
+  "integrity" "sha512-nJNOMjXQH0Ngk6Y7QllYBH5VLB3+HMJyGBVQPZYUXGalYmN9kgEcVIxMjOiVjwuzee0GvZzmMRB0VQRJPHe8eg=="
+  "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-2.0.8.tgz"
+  "version" "2.0.8"
+
 "@ionic/core@^6.2.2":
   "integrity" "sha512-neE+JhtQ7Kb4nGoKR3e55edHQot5BZTw+woV9+pbyCXP1jGeyFeWWPYBYYOkm05TSEkHgh0v6NkV9y31k8GTNw=="
   "resolved" "https://registry.npmjs.org/@ionic/core/-/core-6.2.2.tgz"
@@ -1375,7 +1380,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.8.6":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.8.6":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
