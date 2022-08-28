@@ -5,9 +5,14 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      wave:['wave','san-serif']
+    },
     extend: {
       colors: {
-        primary:'#FF643D'
+        primary:'#00539cff',
+        secondary:'#eea47fff',
+        tertiary:'#00539cff',
       }
     },
   },
