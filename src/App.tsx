@@ -1,22 +1,22 @@
 import "./App.css";
-import React, { Suspense } from "react";
+import React from "react";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { AuthLayout } from "./Layout";
+import { Login, Register } from "./pages/Auth";
+import Feed from "./pages/feed/Feed";
 
-import Header from "./components/Header";
-import Home from "./pages/Home/Home";
-import Services from "./pages/services/Services";
-import LandingPage from "./pages/landingPage/LandingPage";
 const App: React.FC = () => (
   <BrowserRouter>
-    <Suspense fallback="loading your data">
-      <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/" element={<LandingPage />} />
-        
-        <Route path=":id" element={<Services />} />
-      </Routes>
-    </Suspense>
+    <Routes>
+      <Route path="/" element={<Navigate to="/login" replace />} />
+      <Route  element={<AuthLayout />}>
+        <Route path='/login' element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Route>
+      <Route path="/feed" element={<Feed />} />
+
+    </Routes>
   </BrowserRouter>
 );
 export default App;
