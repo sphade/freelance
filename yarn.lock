@@ -353,24 +353,6 @@
   "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-2.0.8.tgz"
   "version" "2.0.8"
 
-"@ionic/core@^6.2.2":
-  "integrity" "sha512-neE+JhtQ7Kb4nGoKR3e55edHQot5BZTw+woV9+pbyCXP1jGeyFeWWPYBYYOkm05TSEkHgh0v6NkV9y31k8GTNw=="
-  "resolved" "https://registry.npmjs.org/@ionic/core/-/core-6.2.2.tgz"
-  "version" "6.2.2"
-  dependencies:
-    "@stencil/core" "^2.16.0"
-    "ionicons" "^6.0.2"
-    "tslib" "^2.1.0"
-
-"@ionic/react@^6.2.2":
-  "integrity" "sha512-CRuDJbNDn9bbDba37/5v9aZ2gd450XGklGqXmsxEfadh1iq7iWmqcgw14S0ZDAXQt0aE/J+TeKhTyjyutjsAww=="
-  "resolved" "https://registry.npmjs.org/@ionic/react/-/react-6.2.2.tgz"
-  "version" "6.2.2"
-  dependencies:
-    "@ionic/core" "^6.2.2"
-    "ionicons" "^6.0.2"
-    "tslib" "*"
-
 "@jridgewell/gen-mapping@^0.1.0":
   "integrity" "sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w=="
   "resolved" "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz"
@@ -522,16 +504,6 @@
   "integrity" "sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw=="
   "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
   "version" "2.11.6"
-
-"@stencil/core@^2.16.0":
-  "integrity" "sha512-qw2DZzOpyaltLLEfYRTj3n+XbvRtkmv4QQimYDJubC6jMY0NXK9r6H2+VyszdbbVmvK1D9GqZtyvY0NmOrztsg=="
-  "resolved" "https://registry.npmjs.org/@stencil/core/-/core-2.17.3.tgz"
-  "version" "2.17.3"
-
-"@stencil/core@~2.16.0":
-  "integrity" "sha512-s/UJp9qxExL3DyQPT70kiuWeb3AdjbUZM+5lEIXn30I2DLcLYPOPXfsoWJODieQywq+3vPiLZeIdkoqjf6jcSw=="
-  "resolved" "https://registry.npmjs.org/@stencil/core/-/core-2.16.1.tgz"
-  "version" "2.16.1"
 
 "@tanstack/match-sorter-utils@^8.0.0-alpha.82":
   "integrity" "sha512-IdmEekEYxQsoLOR0XQyw3jD1GujBpRRYaGJYQUw1eOT1eUugWxdc7jomh1VQ1EKHcdwDLpLaCz/8y4KraU4T9A=="
@@ -1061,13 +1033,6 @@
     "parent-module" "^1.0.0"
     "resolve-from" "^4.0.0"
 
-"ionicons@^6.0.2":
-  "integrity" "sha512-AyKfFaUKVoBz4eB8XkU7H1R5HFnVsgq5ijqSdbXC0lES9PDK/J6LUQz6XUJq0mVVQF5k9kczSPOLMW3mszG0mQ=="
-  "resolved" "https://registry.npmjs.org/ionicons/-/ionicons-6.0.2.tgz"
-  "version" "6.0.2"
-  dependencies:
-    "@stencil/core" "~2.16.0"
-
 "is-arrayish@^0.2.1":
   "integrity" "sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg=="
   "resolved" "https://registry.npmjs.org/is-arrayish/-/is-arrayish-0.2.1.tgz"
@@ -1327,7 +1292,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@>=16.8.6":
+"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.6.0", "react-dom@>=16.8":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1380,7 +1345,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.8.6":
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -1532,11 +1497,6 @@
   "version" "5.0.1"
   dependencies:
     "is-number" "^7.0.0"
-
-"tslib@*", "tslib@^2.1.0":
-  "integrity" "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ=="
-  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
-  "version" "2.4.0"
 
 "typescript@^4.6.4":
   "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="

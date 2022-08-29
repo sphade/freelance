@@ -1,7 +1,7 @@
 import { IconButton, InputAdornment, TextField } from "@mui/material";
 import React from "react";
 import {EyeIcon,EyeSlashIcon} from '@heroicons/react/24/outline'
-const PasswordInput = ({ label }: { label: string }) => {
+const PasswordInput = ({ label,size }: { label: string,size?:'small'|'medium' }) => {
   const [showPassword, setShowPassword] = React.useState(false);
 
   return (
@@ -11,6 +11,7 @@ const PasswordInput = ({ label }: { label: string }) => {
         fullWidth
         label={label}
         autoComplete="current-password"
+        size={size}
         InputProps={{
           endAdornment: (
             <InputAdornment position="end" className="cursor-pointer">

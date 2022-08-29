@@ -1,25 +1,37 @@
 import { Button, TextField } from "@mui/material";
+import { Link } from "react-router-dom";
+import { GoogleIcon } from "../../assets/Icons";
 import { PasswordInput } from "../../components/inputs";
 
 const Login = () => {
   return (
-    <main className=" pb-10 bg-white max-w-xl  shadow-lg rounded-lg  p-10  mt-24 text-center mx-auto">
-      <h1 className="uppercase font-bold text-4xl text-primary">
-        login to your account
-      </h1>
-      <p className="text-gray-500 p-5 capitalize">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, alias
-        deserunt
+    <main className="   max-w-xl w-full         mx-auto">
+      <div className="px-5">
+
+      <h1 className="capitalize font-semibold text-4xl  text-black">login</h1>
+      <p className="text-gray-400  capitalize my-5 ">hi, welcome' back 🖐</p>
+      <Button
+        variant="outlined"
+        
+        startIcon={<img src={GoogleIcon} alt="" className="w-5 h-5" />}
+      >
+        login in with google
+      </Button>
+      <p className="text-cente my-5 capitalize ">
+        or login with email
       </p>
       <div>
-        <form className="w-[500px] mx-auto space-y-5">
-          <TextField fullWidth label="email" type='email' />
-        <PasswordInput label="password"/>
-          <Button fullWidth variant="contained" size="large">
+        <form className="w-full md:w-[500px] mx-auto space-y-5 ">
+          <TextField fullWidth label="Email" size="small" type="email" />
+          <PasswordInput label="Password" size="small" />
+          <Button fullWidth variant="contained" size="large" disableElevation>
             log into your account
           </Button>
         </form>
+          <Link to='/register' className="py-5 inline-block">Don't have a account, <span className='text-primary  capitalize cursor-pointer'>register</span> </Link>
+        </div>
       </div>
+        
     </main>
   );
 };
