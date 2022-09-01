@@ -35,7 +35,7 @@ const Register = () => {
          
 
         </form>
-        <Link to='/login' className="inline-block py-5">Already have an Account, <span className='text-primary  capitalize cursor-pointer'>Login</span> </Link>
+        <p  className="inline-block py-5">Already have an Account, <Link to='/login' className='text-primary  capitalize cursor-pointer'>Login</Link> </p>
 
       </div>
     

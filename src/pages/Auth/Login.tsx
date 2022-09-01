@@ -28,7 +28,7 @@ const Login = () => {
             log into your account
           </Button>
         </form>
-          <Link to='/register' className="py-5 inline-block">Don't have a account, <span className='text-primary  capitalize cursor-pointer'>register</span> </Link>
+          <p  className="py-5 inline-block">Don't have a account, <Link to='/register' className='text-primary  capitalize cursor-pointer'>register</Link> </p>
         </div>
       </div>
         
