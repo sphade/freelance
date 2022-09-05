@@ -1,4 +1,3 @@
-export { default as Sidebar } from './nav/Sidebar';
-export { default as PostCard } from './card/PostCard';
-export { default as SearchBar } from './inputs/SearchBar';
-export { default as PasswordInput } from './inputs/PasswordInput';
+export {default as SideBar} from './navigation/Sidebar'
+export {default as FooterPlayer} from './FooterPlayer' 
+export {default as Tabs} from './tabs/Tabs' 

@@ -69,7 +69,11 @@
 } */
 
 }
-
+@layer components{
+  .tooltip{
+    @apply z-10  rounded  transition duration-700 opacity-0 group-hover:opacity-100 delay-700  absolute -top-10 text-xs bg-gray-900 p-1 text-white whitespace-nowrap
+  }
+}
 .active{
-  @apply text-white !fill-black
+  @apply border-orange-700
 }

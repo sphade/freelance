@@ -1,8 +1,7 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     fontFamily: {
@@ -10,8 +9,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary:'#00539cff',
-        secondary:'#eea47fff',
+        primary:'#ffffff',
+        secondary:'#000000',
         tertiary:'#00539cff',
       }
     },
